@@ -8,7 +8,7 @@ def growthPop(p0, percent, aug, p):
     percent = percent / 100
     while number < p:
         appr = p0 * percent
-        number = p0 + appr + aug
+        number = int(p0 + appr + aug)
         p0 = number
         index += 1
     print(index)
