@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
 }
-.myLinks a{
+.myLinks > a{
     color: dodgerblue;
     text-decoration: none;
     padding-left: 10px;
