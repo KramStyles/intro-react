@@ -1,26 +1,28 @@
+// import dependencies
 import React from "react"
 import root from "react-dom"
+
+// Import external components
 import './app.css'
-import s from './style.module.css'
+import head from './Header'
+import foot from './Footer'
+import main from './Main'
+
+let facts = (
+    <div>
+        <head/>
+        <main/>
+        <foot/>
+    </div>
+)
+
+const fact = (
+    <div>Hello</div>
+)
 
 function Temporary() {
-    return (facts)
+    return (fact)
 }
-
-
-
-function Main(){
-    return (
-        <ul>
-            <li>Was first released in 2013</li>
-            <li>Was originally created by Jordan Walke</li>
-            <li>Has well over 100K stars on Github</li>
-            <li>Is maintained by Facebook</li>
-            <li>Powers thousands of enterprise apps, including mobile apps</li>
-        </ul>
-    )
-}
-
 
 
 root.render(
