@@ -1,6 +1,7 @@
 import React from "react"
 import root from "react-dom"
-import styles from "./style.css"
+import './app.css'
+import s from './style.module.css'
 
 function Temporary() {
     return (facts)
@@ -9,9 +10,9 @@ function Temporary() {
 function Header() {
     return (
         <header>
-            <nav className={styles.myFlex} style={{display: "flex", justifyContent: "space-around"}}>
+            <nav className={s.myFlex} style={{display: "flex", justifyContent: "space-around"}}>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="React online logo" width="20%"/>
-                <div className={styles.myLinks}>
+                <div className={s.myLinks}>
                     <a href="">Pricing</a>
                     <a href="">About us</a>
                     <a href="">Contact</a>
