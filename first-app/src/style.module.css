@@ -1,9 +1,17 @@
 .myFlex{
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .myLinks > a{
-    color: dodgerblue;
+    color: #61DAFB;
     text-decoration: none;
-    padding-left: 10px;
+    padding-left: 20px;
+    font-family: Poppins;
+    font-size: 1.56em;
+    transition: 1s ease all;
+}
+.myLinks > a:hover{
+    text-decoration: underline;
+    color: black;
 }
