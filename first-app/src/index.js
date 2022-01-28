@@ -4,26 +4,23 @@ import root from "react-dom"
 
 // Import external components
 import './app.css'
-import head from './Header'
-import foot from './Footer'
-import main from './Main'
+import Header from './Header'
+import Footer from './Footer'
+import Main from './Main'
 
 let facts = (
     <div>
-        <head/>
-        <main/>
-        <foot/>
+        <Header/>
+        <Main/>
+        <Footer/>
     </div>
 )
 
-const fact = (
-    <div>Hello</div>
-)
 
 function Temporary() {
-    return (fact)
+    return (facts)
 }
 
 
-root.render(
-    <Temporary/>, document.getElementById('root'));
+root.render(<Temporary/>, document.getElementById('root'));
+root.render(facts, document.getElementById('root'));

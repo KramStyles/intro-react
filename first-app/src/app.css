@@ -5,5 +5,7 @@
 }
 
 body{
-    background-color: #eee;
+    background-color: #333;
+    color: white;
+    font-family: Poppins;
 }
