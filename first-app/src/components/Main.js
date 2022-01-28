@@ -1,7 +1,14 @@
 import React from 'react'
+import MainCon from '../Main'
+import Footer from '../Footer'
+
 function Main(){
     return (
-        <h1>Main Content goes here</h1>
+        <div>
+            <MainCon/>
+            <Footer/>
+        </div>
+
     )
 }
 export default Main

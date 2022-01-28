@@ -1,7 +1,8 @@
 import React from 'react'
+import Nav from '../Header'
 
 export default function Navbar() {
     return(
-        <h1>Navbar goes here</h1>
+        <Nav/>
     )
 }

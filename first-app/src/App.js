@@ -5,8 +5,8 @@ import Navbar from './components/Navbar'
 export default function body () {
     return (
         <div>
-            <Main/>
             <Navbar/>
+            <Main/>
         </div>
     )
 }
