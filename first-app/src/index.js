@@ -7,6 +7,7 @@ import './app.css'
 import Header from './Header'
 import Footer from './Footer'
 import Main from './Main'
+import App from './App'
 
 let facts = (
     <div>
@@ -24,3 +25,4 @@ function Temporary() {
 
 root.render(<Temporary/>, document.getElementById('root'));
 root.render(facts, document.getElementById('root'));
+root.render(<App/>, document.getElementById('root'))
